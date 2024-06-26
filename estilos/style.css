@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifz;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+header > div:first-child {
+    margin-right: auto;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+#youtube > a > img {
+    height: 30px;
+}
+
+#pesquisar > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+}
+
+nav > a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #141414;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+nav > a.selecionado {
+    background-color: white;
+    color: #141414;
+    font-weight: bold;
+}
+
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.videos > img {
+    height: 320px;
+    width: 100%;
+}
+
+.tempo {
+    position: absolute;
+    top: 72%;
+    right: 1%;
+    color: white;
+    background-color: black;
+    padding: .1em .2em;
+    border-radius: 5px;
+}
+
+
+.videos > p {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    color: white;
+}
+
+.videos > p > img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.info {
+    display: block;
+    width: 100%;
+    text-indent: 55px;
+    color: #888888;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #171717;
+}
+
+footer img {
+    height: 24px;
+    border-radius: 50%;
+}
+
+footer button {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botoes {
+    margin: auto;
+}
