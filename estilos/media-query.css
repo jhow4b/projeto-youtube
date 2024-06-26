@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 551px) and (max-width: 992px) {
+    
+    #pesquisar > a > span {
+        letter-spacing: 20px;
+    }
+
+    nav {
+        border-bottom: 2px solid #171717;
+        gap: 1em;
+    }
+    
+    nav > a:first-child, nav > a:last-child  {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    main {
+        margin: auto;
+        width: 500px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #pesquisar > a > span {
+        letter-spacing: 20px;
+    }
+
+    nav {
+        border-bottom: 2px solid #171717;
+    }
+    nav > a {
+        padding: 5px 30px;
+    }
+
+    nav > a:first-child, nav > a:last-child  {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    main {
+        margin: auto;
+        width: 600px;
+        margin-bottom: 100px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    footer button:first-child {
+        margin-left: 10em;
+    }
+
+    footer button:last-child {
+        margin-right: 10em;
+    }
+}

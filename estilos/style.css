@@ -29,6 +29,9 @@ header > div:first-child {
 
 main {
     margin-bottom: 60px;
+    width: 100%;
+    transition: width .2s, height.2s;
+    transition-timing-function: ease;
 }
 
 #youtube > a > img {
@@ -43,6 +46,7 @@ main {
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: black;
     width: 100%;
     padding: 5px;
@@ -50,7 +54,6 @@ nav {
 
 nav > a {
     color: white;
-    margin-right: 20px;
     text-decoration: none;
     background-color: #141414;
     padding: 5px 15px;
@@ -106,7 +109,7 @@ nav > a.selecionado {
 .info {
     display: block;
     width: 100%;
-    text-indent: 55px;
+    text-indent: 3em;
     color: #888888;
 }
 
